@@ -78,7 +78,7 @@ $grayColor: #3b3b3b;
     animation-delay: 1s;
     color: $lightColor;
     line-height: 1.75;
-    padding: 0vh 1%;
+    padding: 0vh 2%;
     @include screenM{
       font-size: 90%;
     }
@@ -92,7 +92,7 @@ $grayColor: #3b3b3b;
   background-color: $grayColor;
   height:auto;
   text-align: center;
-  padding: 10vh 10vh;
+  padding: 3% 3%;
   @include screenS{
     padding: 2vh;
   }
