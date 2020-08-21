@@ -133,6 +133,27 @@ $grayColor: #3b3b3b;
       font-size: 170%;
     }
   }
+  .media2{
+    background-color: $grayColor;
+    max-width: 50%;
+    float: left;
+    @include screenS{
+      max-width: 100%;
+      float: none;
+      text-align: center;
+    }
+    img{
+      max-width: 50%;
+      @include screenS{
+        max-width: 40%;
+      }
+
+    }
+    img:hover{
+      animation: fadeOut .25s forwards;
+    }
+  }
+
   .media{
     background-color: $grayColor;
     max-width: 33.333333333334%;
